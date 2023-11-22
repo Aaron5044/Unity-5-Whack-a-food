@@ -25,7 +25,7 @@ public class TargetX : MonoBehaviour
         StartCoroutine(RemoveObjectRoutine()); // begin timer before target leaves screen
 
     }
-    
+
     // When target is clicked, destroy it, update score, and generate explosion
     private void OnMouseDown()
     {
